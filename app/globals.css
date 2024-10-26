@@ -40,3 +40,19 @@ a {
     color-scheme: dark;
   }
 }
+
+.header-list {
+  padding-left:0;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.header-list li {
+  list-style: none;
+  padding: 12px;
+}
+
+.header-list li:hover {
+  border-bottom: 1px solid white;
+}
