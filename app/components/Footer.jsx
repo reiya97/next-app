@@ -1,13 +1,12 @@
 import styles from "../page.module.css";
 
-export function Footer() {
+export function Footer(props) {
   return (
-    <>
+    <div>
       <footer className={styles.footer}>
-        Here is common footer section written in components/Footer.jsx
+        <p>Here is common footer section defined in components/{props.page}.jsx</p>
       </footer>
-
-    </>
+    </div>
       
   );
 }
