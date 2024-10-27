@@ -1,10 +1,14 @@
 import styles from "./Footer.module.css";
+import Link from 'next/link';
 
 export function Footer(props) {
     return (
         <div>
             <footer className={styles.footer}>
-                <p>Here is common footer section defined in components/{props.page}.jsx</p>
+                <ul>
+                    <li><Link href="/contact">Contact</Link></li>
+                    <li><Link href="/information">Information</Link></li>
+                </ul>
             </footer>
         </div>
     );
