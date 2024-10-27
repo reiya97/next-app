@@ -10,6 +10,18 @@
   padding: 12px;
 }
 
-.header li:hover {
-  border-bottom: 1px solid white;
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  .header a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 }
