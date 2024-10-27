@@ -3,11 +3,11 @@ import Link from 'next/link';
 
 export function Header() {
     return (
-        <div>
-            <ul className={styles.header}>
+        <header className={styles.header}>
+            <ul>
                 <li><Link href="/">Index</Link></li>
                 <li><Link href="/about">About</Link></li>
             </ul>
-        </div>
+        </header>
     );
 }
