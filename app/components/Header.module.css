@@ -1,0 +1,15 @@
+.header {
+  padding-left:0;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.header li {
+  list-style: none;
+  padding: 12px;
+}
+
+.header li:hover {
+  border-bottom: 1px solid white;
+}
