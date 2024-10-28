@@ -15,9 +15,7 @@
   list-style-position: inside;
 }
 
-.main li:not(:last-of-type) {
-  margin-bottom: 8px;
-}
+
 
 .code {
   font-family: inherit;
