@@ -1,7 +1,7 @@
 // import { Boxes } from "../Boxes";
 import { Boxes } from "@/app/components/Boxes";
 import styles from "@/app/components/Main/Main.module.css";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 
 export function Main(props) {

@@ -3,8 +3,19 @@ import styles from "@/app/page.module.css";
 import { Footer } from "@/app/components/Footer";
 import { Main } from "@/app/components/Main";
 import { Header } from "@/app/components/Header";
+import { useEffect } from "react";
 
 export default function Home() {
+
+    useEffect(() => {
+        document.body.style.backgroundColor = "lightblue";
+        console.log("mounted");
+        return () => {
+            console.log("unmounted");
+            document.body.style.backgroundColor = "";
+        }
+    }, []);
+
     return (
         <div className={styles.page}>
             <Header />
