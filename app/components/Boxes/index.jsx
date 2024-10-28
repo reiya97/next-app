@@ -1,4 +1,4 @@
-import styles from "./Boxes.module.css";
+import styles from "@/app/components/Boxes/Boxes.module.css";
 // import Link from 'next/link';
 
 const ITEMS = [
